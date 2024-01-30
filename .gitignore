@@ -1,0 +1,64 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+*/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+*/.next/
+*.next*
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env*.development
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# rider
+/.idea
+
+# dependencies
+/book_code/03-next-js-basics-and-built-in-components/custom-_app-file/.next/*
+/book_code/03-next-js-basics-and-built-in-components/custom-_app-file/node_modules/*
+/book_code/03-next-js-basics-and-built-in-components/custom-_document-file/.next/*
+/book_code/03-next-js-basics-and-built-in-components/custom-_document-file/node_modules/*
+/book_code/03-next-js-basics-and-built-in-components/handling-metadata/.next/*
+/book_code/03-next-js-basics-and-built-in-components/handling-metadata/node_modules/*
+/book_code/04-nextjs-data-flow/consuming-rest-apis-on-the-client-side/.next/*
+/book_code/04-nextjs-data-flow/consuming-rest-apis-on-the-client-side/node_modules/*
+/book_code/04-nextjs-data-flow/consuming-rest-apis-on-the-server-side/.next/*
+/book_code/04-nextjs-data-flow/consuming-rest-apis-on-the-server-side/node_modules/*
+/book_code/04-nextjs-data-flow/signbook/.next/*
+/book_code/04-nextjs-data-flow/signbook/node_modules/*
+/book_code/05-managing-local-and-global-states-in-nextjs/boilerplate/.next/*
+/book_code/05-managing-local-and-global-states-in-nextjs/boilerplate/node_modules/*
+/book_code/05-managing-local-and-global-states-in-nextjs/with-context/.next/*
+/book_code/05-managing-local-and-global-states-in-nextjs/with-context/node_modules/*
+/book_code/05-managing-local-and-global-states-in-nextjs/with-redux/.next/*
+/book_code/05-managing-local-and-global-states-in-nextjs/with-redux/node_modules/*
+/book_code/08-using-custom-server/with-express/.next/*
+/book_code/08-using-custom-server/with-express/node_modules/*
+/book_code/08-using-custom-server/with-fastify/.next/*
+/book_code/08-using-custom-server/with-fastify/node_modules/*
